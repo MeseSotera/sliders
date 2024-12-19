@@ -1,0 +1,136 @@
+/* /* body {
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.large-box {
+    width: 80%;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.large-box img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #ccc;
+    object-fit: cover;
+}
+
+.small-box {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.small-box img {
+    width: 18%;
+    height: auto;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    transition: border-color 0.3s;
+}
+.small-box img.active{
+    border: 5px solid #333;
+}
+.small-box img:hover {
+    border-color: #333;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.large-box {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.large-box img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+}
+
+.small-box {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.small-box img {
+    width: 18%;
+    height: auto;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    transition: border-color 0.3s;
+}
+
+.small-box img:hover {
+    border-color: #333;
+}
+
+.small-box .active {
+    border-color: red;
+} 
+/* body {
+    font-family: Arial, sans-serif;
+}
+
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.large-box {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.large-box img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.small-box {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.small-box img {
+    width: 18%;
+    height: auto;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    transition: border-color 0.3s, transform 0.3s ease-in-out;
+}
+
+.small-box img:hover {
+    border-color: #333;
+    transform: scale(1.1);
+}
+
+.small-box .active {
+    border-color: red;
+} */
